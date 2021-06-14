@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles-aft.css" type="text/css">
     <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
+    <script src="./js/script.js" defer></script>
     <title>Beythak</title>
 </head>
 
@@ -15,14 +16,14 @@
         <nav>
             <img src="./images/beythak-logo.svg" alt="Beythak-Logo">
             <ul>
-                <li>
-                    <a href="#">Home</a>
+                <li> 
+                    <a href="index-aft.html">Home</a>
                 </li>
                 <li>
-                    <a href="#team">Team</a>
+                    <a href="team.html">Team</a>
                 </li>
                 <li>
-                    <a href="#contact">Contact</a>
+                    <a href="contact.html">Contact</a>
                 </li>
             </ul>
         </nav>
@@ -186,45 +187,46 @@
         <P>Building the first engagement based integrated digital platform for Agriculture 4.0</P>
         <div>
                 <ul>
-                    <li class="li">
-                        <a href="mr">
+                    <li class="li" data-tab-target="#mr">
+                      
                             <img src="images/Machenery-rental.svg" alt="Machenery-rental.svg">
                             Machinery Rental
-                        </a>
+                      
                     </li>
-                    <li class="li">
-                        <a href="se">
+                    <li class="li" data-tab-target="#se">
+                       
                             <img  src="images/engagement (1).svg" alt="engagement (1).svg">
                             Social Engagement
-                        </a>
+                       
                     </li>
-                    <li class="li">
-                        <a href="na">
+                    <li class="li" data-tab-target="#na">
+                       
                             <img  src="images/alert.svg" alt="alert.svg">
                             Notifications & Advertisement
-                        </a>
+                       
                     </li>
-                    <li class="li">
-                        <a href="li">
+                    <li class="li" data-tab-target="#li">
+                        
                             <img src="images/lending.svg" alt="lending.svg">
                             Lending & Insurance
-                        </a>
+                       
                     </li>
-                    <li class="li">
-                        <a href="as">
+                    <li class="li" data-tab-target="#as">
+                        
                             <img src="images/Advisory (1).svg" alt="Advisory (1).svg">
                             Advisory Services
-                        </a>
+                     
                     </li >
-                    <li class="li">
-                        <a href="mfs">
+                    <li class="li" data-tab-target="#mfs">
+                       
                             <img  src="images/Marketplace (1).svg" alt="Marketplace (1).svg">
                             Marketplace & Farm Supplies
-                        </a>
+                      
                     </li>
                 </ul>
-        </div>
-        <div id="mr">
+        </div> 
+        <div class="tab-content">
+        <div id="mr" data-tab-content class="active" >
             <div class="tab-items">
                 <div>
                     <img src="images/machinery-rental.png" alt="machinery-rental.png"> 
@@ -234,7 +236,7 @@
                 </div>
             </div>
         </div>
-        <div id="se">
+        <div id="se" data-tab-content > 
             <div class="tab-items">
                 <div>
                     <img src="images/social-engagement.png" alt="social-engagement.png"> 
@@ -244,6 +246,51 @@
                 </div>
             </div>
         </div>
+        <div id="na" data-tab-content > 
+            <div class="tab-items">
+                <div>
+                    <img src="images/alerts-notifications.png" alt="alerts-notifications.png"> 
+                </div>
+                <div>
+                    <span>While the alerts and notifications help farmers to get the latest information on weather, insects' migration and market rates - the social timeline provides an opportunity to advertisers target the farmers based on individualized data points.</span>
+                </div>
+            </div>
+        </div>
+        <div id="li" data-tab-content > 
+            <div class="tab-items">
+                <div>
+                    <img src="images/lending-and-insurance.png" alt="lending-and-insurance.png"> 
+                </div>
+                <div>
+                    <span>While the farmers pick and chose from the best suited instruments, the lenders and insurance providers get all the relevant data points for credit scoring and insights to customize the products based on market needs.</span>
+                </div>
+            </div>
+        </div>
+    
+    <div id="as" data-tab-content > 
+        <div class="tab-items">
+            <div>
+                <img src="images/advisory.png" alt="advisory.png"> 
+            </div>
+            <div>
+                <span>
+                    Advisory services through text, pictures, recorded messages and phone calls to help farmer getting better yield, avoiding waste and consistently bring the best quality output.</span>
+            </div>
+        </div>
+    </div>
+    <div id="mfs" data-tab-content > 
+        <div class="tab-items">
+            <div>
+                <img src="images/marketplace-and-farm-supplies.png" alt="marketplace-and-farm-supplies.png"> 
+            </div>
+            <div>
+                <span>
+                    A marketplace for farmers to sell the products in desired rates in timely fashion. The same will provide access to suppliers of seed, fertilizer, pesticides, machinery and other retail companies.</span>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
     </section>
 
     <!-- Chacha jee -->
@@ -265,7 +312,7 @@
         <div class="footer-div"> 
             <ul>
                 <li>
-                    <a href="index.html" >Home</a>
+                    <a href="index-aft.html" >Home</a>
                 </li>
                 <li>
                     <a href="team.html" >Team</a>

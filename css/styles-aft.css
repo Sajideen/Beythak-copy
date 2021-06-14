@@ -11,8 +11,8 @@
 }
 
 nav{
-    width: 80%;
-    padding: 18px 0 0 0;
+    width: 90%;
+    padding: 18px 0 10px 0;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
@@ -69,9 +69,10 @@ nav>ul>li>a{
     justify-content: center;
     justify-content: space-around;
     flex-direction: row; 
-    padding: 110px 0;
+    padding-bottom: 110px;
 }
 .pointer{
+    margin-top: -70px;
     padding: 3rem;
     height:222px;
     color: #FFFFFF;
@@ -102,6 +103,7 @@ nav>ul>li>a{
     text-align: center;
     font-size: 2.80rem;
     line-height: 3.5rem;
+    margin: 0px 0px 51px;
 }
 
 .Farming-houses{
@@ -294,7 +296,7 @@ nav>ul>li>a{
  .focus-area{
      height:269px;
      border-radius: 2%;
-     width:555px;
+     width:510px;
      background-color: #FFFFFF;
      color: #828282;
      font-family: 'Roboto', sans-serif;
@@ -415,18 +417,35 @@ nav>ul>li>a{
     list-style-type: none;
     color: #fff;
     margin: 0px 20px;
-}
-
-.li>a{
     text-decoration: none;
     list-style-type: none;
     color: #fff;
     text-align: center;
-    margin: 0px 20px;
     font-family: 'Poppins', sans-serif;
 }
 
-.platform>div>ul>li>a>img{
+/* .li>a{
+    text-decoration: none;
+    list-style-type: none;
+    color: #fff;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+} */
+
+/* .platform>div>ul>li>a:active{
+    opacity: 1;
+    font-weight: bold;
+} */
+
+[data-tab-content] {
+    display: none;
+}
+
+.active[data-tab-content] {
+    display: block;
+}
+
+.platform>div>ul>li>img{
     width: 139.42px; 
     height: 76px;
     margin: 0px 0px 15px;
@@ -445,18 +464,22 @@ nav>ul>li>a{
 
 .tab-items>div>span{
     color:#fff;
-    width:750px;
+    margin-top: 40px;
+    width:700px;
     height: 152px;
     font-size: 22px;
     align-items: center;
     font-family: 'Poppins', sans-serif;
     margin-bottom: 20px;
-    font-weight: 500 !important;
+    font-weight: 600 !important;
     line-height: 38px;
     text-align: left;
     display: block;
 }
 
+.tab-content{
+    margin: 0 110px;
+}
 .chacha{
     margin: 130px 0px 0px;
     display: flex;
@@ -465,7 +488,7 @@ nav>ul>li>a{
 .chacha>div{
     text-align: center !important;
     padding: 0px 15px;
-    margin: 0px 0px 0px 97.5px;
+    margin: 0px 110px 110px 97.5px;
 }
 .chacha>div>img{
     height: 300px;
@@ -474,7 +497,7 @@ nav>ul>li>a{
 
 .chacha>div>h5{
     font-family:'Poppins', sans-serif;
-    font-weight: 500 !important;
+    font-weight: 600 !important;
     color: #232323;
     font-size: 2.80rem;
     line-height: 3.5rem;
@@ -484,11 +507,11 @@ nav>ul>li>a{
 .chacha>div>p{
     font-family:'Poppins', sans-serif;
     text-align: justify;
-    width: 457.5px;
+    width: 440px;
     height: 150px;
     font-size: 17px;
     line-height: 30px;
-    font-weight: 400;
+    font-weight: 500;
     color: #828282;
     font-family: 'Roboto', sans-serif;
 }
@@ -543,6 +566,45 @@ nav>ul>li>a{
 
 .end>div>p{
     margin-right: 60px;
+}
+
+ /* team page */
+.second-header{
+    height:110px;
+    padding: 0 60px;
+  
+    background-color: #f7f7f7;
+    padding: 40px 0;
+}
+.second-header>div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.second-header>div>div>h1{
+    padding-left:  60px;
+    font-size: 18px;
+    columns: #232323;
+    font-weight: 600;
+    font-family:'Poppins', sans-serif;
+
+}
+
+.second-header>div>div>ul{
+    display: flex;
+    flex-direction: row;
+   padding-right: 60px;
+}
+
+.second-header>div>div>ul>li{
+    padding: 0px 30px 0px 31px;
+
+}
+
+.second-header>div>div>ul>li>a{
+    text-decoration: none;
+    
 }
 /*
 .agriculture>div{
